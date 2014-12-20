@@ -3,17 +3,17 @@
 using namespace std;
 
 void testingMain()
-/**************************************************
+/************************************************************************
 	Entrance of the testing mode;
 	will read two files:
 			one to build the DT, tree.csv
 			one to load the test data, testData.csv
 	will output one file:
 			to record the answer: output.csv
----------------------------------------------------
+-------------------------------------------------------------------------
 	input : none;
 	return : none;
-**************************************************/
+************************************************************************/
 {
     FILE *fpTree, *fpData;
     //int attribute;
